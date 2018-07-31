@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XamFormsWeb.XamarinForms.Views.HomePage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    >
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                FontSize="Large"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                Text="Hello World" />
+            <Button
+                x:Name="buttonX"
+                Clicked="Handle_Clicked"
+                HeightRequest="50"
+                Text="Click Me!!!" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
